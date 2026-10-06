@@ -219,7 +219,7 @@ function createInstructions() {
 
 	text = document.createElement( 'div' );
 	text.onSelectStart = null;
-	text.innerHTML = '<span style="color:' + theme[0] + ';font-size:40px;">Xin chào!</span><br /><br /><span style="font-size:15px;"><strong>Chào mừng bạn đến Apksmodᵗᵘᵇᵒᵗᵒᶜᵈᵒ</strong><br /><br />1. Drag a ball.<br />2.&nbsp;Click&nbsp;on&nbsp;the&nbsp;background.<br />3. Shake your browser.<br />4. Double click.<br />5. Play!</span>';
+	text.innerHTML = '<span style="color:' + theme[0] + ';font-size:40px;">Xin chào!</span><br /><br /><span style="font-size:15px;"><strong>Tôi là <b>Apksmodᵗᵘᵇᵒᵗᵒᶜᵈᵒ</b></strong><br /><br />Rất vui vì bạn đã ghé thăm.<br /> Chia sẻ là niềm vui.<br />Giúp đỡ là hạnh phúc.<br />3. Miễn phí và mãi mãi như vậy.<br />Chúc bạn vui vẻ.<br /> Play!</span>';
 	text.style.color = theme[1];
 	text.style.position = 'absolute';
 	text.style.left = '0px';
